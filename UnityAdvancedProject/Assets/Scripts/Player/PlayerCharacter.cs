@@ -7,13 +7,10 @@ using UnityEngine;
 
 public class PlayerCharacter : Unit, IAttacker, IDamagable
 {
-    [SerializeField] private StatConfig _statConfig;
-    private Stats _playerStats;
+    [SerializeField] private StatSheetConfig _statSheetConfig;
+    private StatSheet _stats;
 
-    private void Start()
-    {
-        _playerStats = _statConfig.GenerateStats();
-    }
+   
     
     
 
@@ -23,7 +20,7 @@ public class PlayerCharacter : Unit, IAttacker, IDamagable
 
     public void Attack(IDamagable target)
     {
-        throw new NotImplementedException();
+        
     }
 
     public Weapon CurrentWeapon { get; }
