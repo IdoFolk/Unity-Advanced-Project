@@ -4,381 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/EnemyMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/EnemyMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/UnitMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/UnitMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatSheetConfig.cs" afterDir="false" />
+    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="Added prefabs folder and the animated player as a prefab to it">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Easy Character Movement - Manual.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Easy Character Movement - Manual.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Easy Character Movement - Walkthrough.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Easy Character Movement - Walkthrough.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraBackwardWalk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraBackwardWalk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraForwardWalk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraForwardWalk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeLeftWalk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeLeftWalk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeRightWalk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeRightWalk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidCrouch.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidCrouch.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidIdle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidIdle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidIdleJumpUp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidIdleJumpUp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidJumpAndFall.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidJumpAndFall.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidMidAir.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidMidAir.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRun.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRun.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurn.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurn.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurnSharp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurnSharp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidStandTurn.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidStandTurn.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurn.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurn.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurnSharp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurnSharp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animator/FPS Camera Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animator/FPS Camera Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animator/ThirdPersonAnimatorController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Animator/ThirdPersonAnimatorController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Agent Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Agent Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Cyan Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Cyan Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Dark Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Dark Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Dirt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Dirt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Ethan.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Ethan.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/EthanWhite.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/EthanWhite.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Grass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Grass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Light Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Light Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Pink.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Pink.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Player.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Player.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Top Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Top Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Water.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Water.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Materials/Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Demo_Level.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Demo_Level.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Ethan.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Ethan.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Rocks01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Rocks01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Rocks03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Models/Rocks03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Prefabs/Demo_Level.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Prefabs/Demo_Level.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Prefabs/Ethan.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Prefabs/Ethan.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/2D Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/2D Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Character Controller Examples.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Custom Character Controller Examples.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Demo/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Demo/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/FPS HeadBob Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/FPS HeadBob Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Simple Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Simple Demo/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scenes/Simple Demo/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Common.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Common/Utils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Common/Utils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/CrouchingModelScaler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/CrouchingModelScaler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/KinematicMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/KinematicMove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/KinematicRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Components/KinematicRotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomAgentController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomAgentController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/DemoController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/DemoController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanAgentController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanAgentController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanPlatformerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanPlatformerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/FPS_CustomController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/FPS_CustomController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/FollowCameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/FollowCameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanNormals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanNormals.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/GridEmissive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/GridEmissive.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchMauveAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchMauveAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchNavyAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchNavyAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchNavyDarkAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchNavyDarkAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchOrangeAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchOrangeAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchPinkDAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchPinkDAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchTealAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchTealAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchTurquoiseAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchTurquoiseAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchWhiteAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchWhiteAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchYellowAlbedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Textures/SwatchYellowAlbedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Physic Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Physic Materials/Frictionless.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Physic Materials/Frictionless.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_Agent.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_Agent.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_Character.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_Character.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_FirstPerson.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Controllers/ECM_FirstPerson.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Models/ECM_CapsuleDummy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Prefabs/Models/ECM_CapsuleDummy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/BoxGroundDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/BoxGroundDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/OrientModelToGround.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/OrientModelToGround.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/RaycastGroundDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/RaycastGroundDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/SphereGroundDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/@Obsolete/SphereGroundDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Common.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Common/Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Common/Extensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Common/MathLibrary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Common/MathLibrary.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/BaseGroundDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/BaseGroundDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/GroundDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/GroundDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/GroundHit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/GroundDetection/GroundHit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/MouseLook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/MouseLook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseAgentController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseAgentController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseFirstPersonController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Editor/ECMMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Editor/ECMMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Helpers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Helpers/RootMotionController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Helpers/RootMotionController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/1 - Custom Character Controller/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/Scripts/OneWayPlatform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/Scripts/OneWayPlatform.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/11 - Flying/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/12 - Swimming/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/OverShoulderCameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/OverShoulderCameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/PreventCameraWallClip.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/Scripts/PreventCameraWallClip.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/M_VertexColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/M_VertexColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/Scripts/MeshAnalysis.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/Scripts/MeshAnalysis.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/Scripts/Ladder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/Scripts/Ladder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash/Dash Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash/Dash Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash/Scripts/DashingCharacter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/16 - Dash/Scripts/DashingCharacter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/2 - Custom Input/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/3 - Movement Relative To Camera/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation)/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation)/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation)/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation)/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/4 - Custom Rotation (tank like rotation)/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS)/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS)/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS)/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS)/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/5 - Crouching (FPS)/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/6 - Fall Damage/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/7 - Toggle Gravity Direction/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/Scripts/MyCharacterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/Scripts/MyCharacterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/Animation/Animator Based Platform.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/Animation/Animator Based Platform.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/Animation/Platform.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/Animation/Platform.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/exampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/exampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/PlayerConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/PlayerConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/Stat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/Stat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatSheetConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatSheet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/Stats.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/StatSheet.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationStateController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,16 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Semi-Main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bff907ed581f483ab4bd129472866e971fe00/1f/cace27f7/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Animations/Ybot Controller.controller" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/Animation Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy System/EnemyObjectPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Editor/Utility/SaveDuringPlay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -407,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Ido",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMDataSharingConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ori&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMDataSharingConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\PC\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Bman\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Bman\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Bman\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe" />
@@ -477,12 +116,23 @@
       <updated>1707158571957</updated>
       <workItem from="1707158573291" duration="1526000" />
       <workItem from="1707758558724" duration="5538000" />
+      <workItem from="1708274870227" duration="2116000" />
     </task>
+    <task id="LOCAL‎-00001" summary="Added prefabs folder and the animated player as a prefab to it">
+      <option name="closed" value="true" />
+      <created>1708275929838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708275929838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,5 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added prefabs folder and the animated player as a prefab to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added prefabs folder and the animated player as a prefab to it" />
   </component>
 </project>
