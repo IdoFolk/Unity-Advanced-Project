@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1163074627}
   m_Lens:
     FieldOfView: 60.000004
     OrthographicSize: 5
@@ -1048,6 +1048,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 373746462184730488}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1163074627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8480430552710042825, guid: 810792d18dd1a1e4098c739657037543,
+    type: 3}
+  m_PrefabInstance: {fileID: 373746462184730488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1163074628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,8 +1066,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0065c638d88312448aec3f59bb62cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runningSpeedMultiplier: 1.5
   runningAccelerationMultiplier: 4
+--- !u!114 &1163074629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163074622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf553be0c4ae3d4e9dcab8f2e326130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 1163074628}
+  speed: 4
 --- !u!1 &1467890007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1473,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1163074628}
+    - targetCorrespondingSourceObject: {fileID: 810048012144844705, guid: 810792d18dd1a1e4098c739657037543,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163074629}
   m_SourcePrefab: {fileID: 100100000, guid: 810792d18dd1a1e4098c739657037543, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

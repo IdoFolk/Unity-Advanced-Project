@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="">
+    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="Removed the old player movement and controller and added a new one that is based on events">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ybot Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Ybot Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAimHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAimHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationStateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +30,13 @@
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy System/EnemyObjectPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Editor/Utility/SaveDuringPlay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
@@ -127,7 +129,7 @@
       <workItem from="1708274870227" duration="4633000" />
       <workItem from="1708280442605" duration="61000" />
       <workItem from="1708280592036" duration="617000" />
-      <workItem from="1708613352669" duration="3429000" />
+      <workItem from="1708613352669" duration="4055000" />
     </task>
     <task id="LOCAL‎-00001" summary="Added prefabs folder and the animated player as a prefab to it">
       <option name="closed" value="true" />
@@ -153,7 +155,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708277429804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="Removed the old player movement and controller and added a new one that is based on events">
+      <option name="closed" value="true" />
+      <created>1708617120960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708617120960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +188,7 @@
     <MESSAGE value="Added prefabs folder and the animated player as a prefab to it" />
     <MESSAGE value="Starting to adjust the animations to the rest of the player funcs" />
     <MESSAGE value="Updated the player prefab to use the rest of the functionality of the movement and aim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the player prefab to use the rest of the functionality of the movement and aim" />
+    <MESSAGE value="Removed the old player movement and controller and added a new one that is based on events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the old player movement and controller and added a new one that is based on events" />
   </component>
 </project>
