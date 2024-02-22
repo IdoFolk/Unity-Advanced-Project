@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerCharacter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerCharacter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerAimHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerAimHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,42 +15,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Semi-Main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bff907ed581f483ab4bd129472866e971fe00/1f/cace27f7/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerAimHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy System/EnemyObjectPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Editor/Utility/SaveDuringPlay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2bxZDShcI3279o0HodSglUv2xSr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ori&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMDataSharingConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\PC\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Bman\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Bman\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Bman\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe" />
@@ -99,13 +126,68 @@
       <option name="presentableId" value="Default" />
       <updated>1707158571957</updated>
       <workItem from="1707158573291" duration="1526000" />
-      <workItem from="1707758558724" duration="1481000" />
+      <workItem from="1707758558724" duration="5538000" />
+      <workItem from="1708274870227" duration="4633000" />
+      <workItem from="1708280442605" duration="61000" />
+      <workItem from="1708280592036" duration="617000" />
+      <workItem from="1708613352669" duration="6047000" />
+      <workItem from="1708628197138" duration="602000" />
     </task>
+    <task id="LOCAL‎-00001" summary="Added prefabs folder and the animated player as a prefab to it">
+      <option name="closed" value="true" />
+      <created>1708275929838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708275929838</updated>
+    </task>
+    <task id="LOCAL‎-00002" summary="Starting to adjust the animations to the rest of the player funcs">
+      <option name="closed" value="true" />
+      <created>1708277353291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708277353291</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="Updated the player prefab to use the rest of the functionality of the movement and aim">
+      <option name="closed" value="true" />
+      <created>1708277429804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708277429804</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="Removed the old player movement and controller and added a new one that is based on events">
+      <option name="closed" value="true" />
+      <created>1708617120960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708617120960</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="Moving the player with PlayerMovement which listens to PlayerController.cs">
+      <option name="closed" value="true" />
+      <created>1708617755970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708617755970</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="Added a GameManager which handles the pause functionality which other classes use">
+      <option name="closed" value="true" />
+      <created>1708618871977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708618871977</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,5 +203,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added prefabs folder and the animated player as a prefab to it" />
+    <MESSAGE value="Starting to adjust the animations to the rest of the player funcs" />
+    <MESSAGE value="Updated the player prefab to use the rest of the functionality of the movement and aim" />
+    <MESSAGE value="Removed the old player movement and controller and added a new one that is based on events" />
+    <MESSAGE value="Moving the player with PlayerMovement which listens to PlayerController.cs" />
+    <MESSAGE value="Added a GameManager which handles the pause functionality which other classes use" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a GameManager which handles the pause functionality which other classes use" />
   </component>
 </project>
