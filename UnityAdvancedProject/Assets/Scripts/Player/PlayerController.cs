@@ -10,14 +10,20 @@ namespace Player
         [SerializeField] private float runningAccelerationMultiplier = 1.5f;
 
         public event Action<Vector2> OnPlayerMoving;
-    
         public event Action OnPlayerFirePressed;
         public event Action OnPlayerFireReleased;
+        public event Action OnPlayerPressedPause;
 
         private float _runningLerp;
 
         private void Update()
         {
+            
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                OnPlayerPressedPause?.Invoke();
+            }
+
             if (Input.GetMouseButtonDown(0))
             {
                 OnPlayerFirePressed?.Invoke();
