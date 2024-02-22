@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8480430552710042825}
   - component: {fileID: 7569924128957089268}
   - component: {fileID: 3076347712758348017}
-  - component: {fileID: 1706307761586169914}
   - component: {fileID: 5173136115729272731}
+  - component: {fileID: 3109481575791236120}
+  - component: {fileID: 5268159423189032645}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -86,21 +87,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1706307761586169914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810048012144844705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee61779e121311c45b7e1acb48ef8557, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 1
 --- !u!114 &5173136115729272731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,8 +99,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6666738bf185fd24383d7b160683f426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 3109481575791236120}
   animator: {fileID: 3379314208245679977}
-  acceleration: 2
+--- !u!114 &3109481575791236120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810048012144844705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0065c638d88312448aec3f59bb62cb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningAccelerationMultiplier: 4
+--- !u!114 &5268159423189032645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810048012144844705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf553be0c4ae3d4e9dcab8f2e326130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 3109481575791236120}
+  speed: 4
 --- !u!1001 &9191611508762262264
 PrefabInstance:
   m_ObjectHideFlags: 0
