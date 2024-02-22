@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="Starting to adjust the animations to the rest of the player funcs" />
+    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ybot Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Ybot Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OriScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationStateController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +26,15 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Animations/Ybot Controller.controller" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/Animation Scene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/OriScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy System/EnemyObjectPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unit System/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Editor/Utility/SaveDuringPlay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
@@ -113,7 +124,10 @@
       <updated>1707158571957</updated>
       <workItem from="1707158573291" duration="1526000" />
       <workItem from="1707758558724" duration="5538000" />
-      <workItem from="1708274870227" duration="2469000" />
+      <workItem from="1708274870227" duration="4633000" />
+      <workItem from="1708280442605" duration="61000" />
+      <workItem from="1708280592036" duration="617000" />
+      <workItem from="1708613352669" duration="3429000" />
     </task>
     <task id="LOCAL‎-00001" summary="Added prefabs folder and the animated player as a prefab to it">
       <option name="closed" value="true" />
@@ -131,7 +145,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708277353291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="Updated the player prefab to use the rest of the functionality of the movement and aim">
+      <option name="closed" value="true" />
+      <created>1708277429804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708277429804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +177,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added prefabs folder and the animated player as a prefab to it" />
     <MESSAGE value="Starting to adjust the animations to the rest of the player funcs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting to adjust the animations to the rest of the player funcs" />
+    <MESSAGE value="Updated the player prefab to use the rest of the functionality of the movement and aim" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the player prefab to use the rest of the functionality of the movement and aim" />
   </component>
 </project>

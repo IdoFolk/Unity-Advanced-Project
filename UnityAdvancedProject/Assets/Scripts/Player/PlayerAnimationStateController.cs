@@ -1,51 +1,51 @@
+using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class PlayerAnimationStateController : MonoBehaviour
 {
-    [FormerlySerializedAs("_animator")] [SerializeField] private Animator animator;
-    [SerializeField] float acceleration = 0.1f;
-
-    private float _velocityX;
-    private float _velocityZ;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private Animator animator;
 
     private int _velocityXHash;
     private int _velocityZHash;
     private int _isCastingHash;
+
+    private void OnValidate()
+    {
+        playerController ??= GetComponent<PlayerController>();
+    }
 
     private void Awake()
     {
         _isCastingHash = Animator.StringToHash("IsCasting");
         _velocityXHash = Animator.StringToHash("Velocity X");
         _velocityZHash = Animator.StringToHash("Velocity Z");
+
+        playerController.OnPlayerMoving += HandleOnPlayerMoving;
+        playerController.OnPlayerFirePressed += HandleOnPlayerFirePressed;
+        playerController.OnPlayerFireReleased += HandleOnPlayerFireReleased;
     }
 
-    private void Update()
+    private void OnDestroy()
     {
-        var runIsPressed = Input.GetKey(KeyCode.LeftShift);
-        var fireIsPressed = Input.GetMouseButtonDown(0);
-        var fireIsReleased = Input.GetMouseButtonUp(0);
+        playerController.OnPlayerMoving -= HandleOnPlayerMoving;
+        playerController.OnPlayerFirePressed -= HandleOnPlayerFirePressed;
+        playerController.OnPlayerFireReleased -= HandleOnPlayerFireReleased;
+    }
 
-        _velocityX = Input.GetAxis("Horizontal");
-        _velocityZ = Input.GetAxis("Vertical");
+    private void HandleOnPlayerFireReleased()
+    {
+        animator.ResetTrigger(_isCastingHash);
+    }
 
-        if (runIsPressed)
-        {
-            _velocityX += Mathf.Lerp(_velocityX, _velocityX * acceleration, Time.deltaTime * 0.1f);
-            _velocityZ += Mathf.Lerp(_velocityZ, _velocityZ * acceleration, Time.deltaTime * 0.1f);
-        }
-     
-        animator.SetFloat(_velocityXHash, _velocityX);
-        animator.SetFloat(_velocityZHash, _velocityZ);
+    private void HandleOnPlayerFirePressed()
+    {
+        animator.SetTrigger(_isCastingHash);
+    }
 
-        if (fireIsPressed)
-        {
-            animator.SetTrigger(_isCastingHash);
-        }
-
-        if (fireIsReleased)
-        {
-            animator.ResetTrigger(_isCastingHash);
-        }
+    private void HandleOnPlayerMoving(Vector2 velocity)
+    {
+        animator.SetFloat(_velocityXHash, velocity.x);
+        animator.SetFloat(_velocityZHash, velocity.y);
     }
 }
