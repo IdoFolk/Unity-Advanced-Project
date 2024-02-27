@@ -1,20 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using Enemy;
 using PoolSystem;
 using UnityEngine;
 
-public class EnemyObjectPool : ObjectPool<EnemyPoolObject>
+namespace Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    public class EnemyObjectPool : ObjectPool<EnemyPoolGameObject>
     {
-        
-    }
+        [SerializeField] private EnemyPoolGameObject enemyPrefab;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [SerializeField] private int poolSize = 50;
+        // Start is called before the first frame update
+        void Start()
+        {
+            InitPool(poolSize, enemyPrefab, transform);
+        }
     }
 }
