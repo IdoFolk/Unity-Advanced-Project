@@ -5,13 +5,13 @@ using UnityEngine.InputSystem;
 
 public class InputHandler : MonoBehaviour
 {
-    public event Action<bool> OnAimEvent;
+    public event Action<bool> Aim;
+    public event Action<bool> Shoot;
     [Header("Character Input Values")] 
     public Vector2 Move;
     public Vector2 Look;
     public bool Jump;
     public bool Sprint;
-    public bool Aim;
 
     [Header("Movement Settings")] public bool analogMovement;
 
@@ -41,8 +41,11 @@ public class InputHandler : MonoBehaviour
 
     public void OnAim(InputAction.CallbackContext value)
     {
-        AimInput(value.performed);
-        OnAimEvent?.Invoke(value.performed);
+        Aim?.Invoke(value.performed);
+    }
+    public void OnShoot(InputAction.CallbackContext value)
+    {
+        Shoot?.Invoke(value.performed);
     }
     #endregion
 
@@ -65,11 +68,6 @@ public class InputHandler : MonoBehaviour
     public void SprintInput(bool newSprintState)
     {
         Sprint = newSprintState;
-    }
-
-    public void AimInput(bool newAimState)
-    {
-        Aim = newAimState;
     }
     #endregion
     private void OnApplicationFocus(bool hasFocus)
