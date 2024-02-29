@@ -3,14 +3,18 @@ using UnityEngine;
 
 namespace Enemy
 {
-    public class EnemyObjectPool : ObjectPool<EnemyPoolGameObject>
+    public class EnemyPool : ObjectPool<EnemyPoolGameObject>
     {
         [SerializeField] private EnemyPoolGameObject enemyPrefab;
 
         [SerializeField] private int poolSize = 50;
-        // Start is called before the first frame update
-        void Start()
+        void Awake()
         {
+            if (enemyPrefab == null)
+            {
+                Debug.LogError($"{name} is missing an enemy prefab! Aborting pool init.");
+                return;
+            }
             InitPool(poolSize, enemyPrefab, transform);
         }
     }
