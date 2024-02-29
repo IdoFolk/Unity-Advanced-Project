@@ -174,6 +174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5332392530510137095, guid: b0c3530facf35f64f9ff2fb12016e784,
         type: 3}
+      propertyPath: aimVirtualCamera
+      value: 
+      objectReference: {fileID: 6549465225373500890}
+    - target: {fileID: 5332392530510137095, guid: b0c3530facf35f64f9ff2fb12016e784,
+        type: 3}
       propertyPath: _aimVirtualCamera
       value: 
       objectReference: {fileID: 6549465225373500890}
