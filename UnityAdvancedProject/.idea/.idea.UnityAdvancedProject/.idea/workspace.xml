@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="">
+    <list default="true" id="f8d21b9f-98e2-4891-a87d-87cd29059eaa" name="Changes" comment="Fixed the player prefab">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAdvancedProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationStateController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationStateController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Personal scenes/OriScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Personal scenes/OriScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPoolGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPoolGameObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PoolSystem/PoolGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PoolSystem/PoolGameObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,6 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Dev/Tiltan/Courses/Unity Advanced/Final Project/Unity-Advanced-Project/UnityAdvancedProject/Assets/Scripts/Player/AnimationStateController.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationStateController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,6 +125,7 @@
       <workItem from="1708613352669" duration="6047000" />
       <workItem from="1708628197138" duration="907000" />
       <workItem from="1708629462115" duration="973000" />
+      <workItem from="1709217662883" duration="679000" />
     </task>
     <task id="LOCAL‎-00001" summary="Added prefabs folder and the animated player as a prefab to it">
       <option name="closed" value="true" />
@@ -208,7 +207,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708629687969</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="Fixed the player prefab">
+      <option name="closed" value="true" />
+      <created>1709217996425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709217996425</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +247,7 @@
     <MESSAGE value="Moved personal scenes to a folder so the TA knows which scene to look at" />
     <MESSAGE value="Updated the player movement and added the virtual camera to the player prefab" />
     <MESSAGE value="Assigned the follow target in the prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assigned the follow target in the prefab" />
+    <MESSAGE value="Fixed the player prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the player prefab" />
   </component>
 </project>

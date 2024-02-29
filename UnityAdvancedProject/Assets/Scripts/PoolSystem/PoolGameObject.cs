@@ -15,7 +15,7 @@ namespace PoolSystem
             myTransform.localScale = Vector3.one;
         }
         
-        private void OnDestroy()
+        private void OnDisable()
         {
             OnObjectCanBeCleaned?.Invoke(this);
         }
