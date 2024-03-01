@@ -96,6 +96,7 @@ public class ThirdPersonController : MonoBehaviour
     private CharacterController _controller;
     private InputHandler _input;
     private GameObject _mainCamera;
+    private bool _rotateOnMove = true;
 
     private const float _threshold = 0.01f;
 
@@ -108,6 +109,11 @@ public class ThirdPersonController : MonoBehaviour
     public void SetSensitivity(float sensitivity)
     {
         Sensitivity = sensitivity;
+    }
+
+    public void SetRotateOnMove(bool value)
+    {
+        _rotateOnMove = value;
     }
     #endregion
     
@@ -176,13 +182,13 @@ public class ThirdPersonController : MonoBehaviour
     private void CameraRotation()
     {
         // if there is an input and camera position is not fixed
-        if (_input.Look.sqrMagnitude >= _threshold && !LockCameraPosition)
+        if (_input.LookValue.sqrMagnitude >= _threshold && !LockCameraPosition)
         {
             //Don't multiply mouse input by Time.deltaTime;
             float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 
-            _cinemachineTargetYaw += _input.Look.x * deltaTimeMultiplier * Sensitivity;
-            _cinemachineTargetPitch += _input.Look.y * deltaTimeMultiplier * Sensitivity;
+            _cinemachineTargetYaw += _input.LookValue.x * deltaTimeMultiplier * Sensitivity;
+            _cinemachineTargetPitch += _input.LookValue.y * deltaTimeMultiplier * Sensitivity;
         }
 
         // clamp our rotations so our values are limited 360 degrees
@@ -196,19 +202,19 @@ public class ThirdPersonController : MonoBehaviour
     private void Move()
     {
         // set target speed based on move speed, sprint speed and if sprint is pressed
-        float targetSpeed = _input.Sprint ? SprintSpeed : MoveSpeed;
+        float targetSpeed = _input.SprintValue ? SprintSpeed : MoveSpeed;
 
         // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
         // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
         // if there is no input, set the target speed to 0
-        if (_input.Move == Vector2.zero) targetSpeed = 0.0f;
+        if (_input.MoveValue == Vector2.zero) targetSpeed = 0.0f;
 
         // a reference to the players current horizontal velocity
         float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
 
         float speedOffset = 0.1f;
-        float inputMagnitude = _input.analogMovement ? _input.Move.magnitude : 1f;
+        float inputMagnitude = _input.analogMovement ? _input.MoveValue.magnitude : 1f;
 
         // accelerate or decelerate to target speed
         if (currentHorizontalSpeed < targetSpeed - speedOffset ||
@@ -231,11 +237,11 @@ public class ThirdPersonController : MonoBehaviour
         if (_animationBlend < 0.01f) _animationBlend = 0f;
 
         // normalise input direction
-        Vector3 inputDirection = new Vector3(_input.Move.x, 0.0f, _input.Move.y).normalized;
+        Vector3 inputDirection = new Vector3(_input.MoveValue.x, 0.0f, _input.MoveValue.y).normalized;
 
         // note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
         // if there is a move input rotate player when the player is moving
-        if (_input.Move != Vector2.zero)
+        if (_input.MoveValue != Vector2.zero)
         {
             _targetRotation = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg +
                               _mainCamera.transform.eulerAngles.y;
@@ -243,7 +249,10 @@ public class ThirdPersonController : MonoBehaviour
                 RotationSmoothTime);
 
             // rotate to face input direction relative to camera position
-            transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
+            if (_rotateOnMove)
+            {
+                transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
+            }
         }
 
 
@@ -281,7 +290,7 @@ public class ThirdPersonController : MonoBehaviour
             }
 
             // Jump
-            if (_input.Jump && _jumpTimeoutDelta <= 0.0f)
+            if (_input.JumpValue && _jumpTimeoutDelta <= 0.0f)
             {
                 // the square root of H * -2 * G = how much velocity needed to reach desired height
                 _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
@@ -319,7 +328,7 @@ public class ThirdPersonController : MonoBehaviour
             }
 
             // if we are not grounded, do not jump
-            _input.Jump = false;
+            _input.JumpValue = false;
         }
 
         // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)

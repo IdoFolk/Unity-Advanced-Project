@@ -956,6 +956,37 @@ Transform:
   - {fileID: 1721319946934567878}
   m_Father: {fileID: 3670653535087192509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4616267228011886799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577546694986206062}
+  m_Layer: 8
+  m_Name: CastPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577546694986206062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616267228011886799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.184, z: 0.599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130959596861525061}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4626259016601022325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2211,7 @@ Transform:
   - {fileID: 9023673206487265176}
   - {fileID: 2919224425419464514}
   - {fileID: 1095817494668332480}
+  - {fileID: 4577546694986206062}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5332392530510137095
@@ -2194,9 +2226,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59f6563b95a4abf9265f1eeaba17bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _aimVirtualCamera: {fileID: 0}
+  aimVirtualCamera: {fileID: 0}
   normalSensitivity: 0
   aimSensitivity: 0
+  aimColliderLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  projectilePrefab: {fileID: 0}
+  castPos: {fileID: 0}
 --- !u!95 &1765219932091406146
 Animator:
   serializedVersion: 5
@@ -2318,11 +2355,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e087ecce43ebbff45a1b360637807d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Move: {x: 0, y: 0}
-  Look: {x: 0, y: 0}
-  Jump: 0
-  Sprint: 0
-  Aim: 0
+  MoveValue: {x: 0, y: 0}
+  LookValue: {x: 0, y: 0}
+  JumpValue: 0
+  SprintValue: 0
+  AimValue: 0
+  ShootValue: 0
   analogMovement: 0
   cursorLocked: 1
 --- !u!114 &6876275872425091597
@@ -2431,6 +2469,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1eb419e9-71bd-4abc-ba44-0b0ebd7eb091
     m_ActionName: Player/Aim[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3f62de1d-82a2-43d9-905b-62330f7cc364
+    m_ActionName: Player/Shoot[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
