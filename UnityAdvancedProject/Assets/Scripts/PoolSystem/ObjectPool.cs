@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using UnitSystem;
 using UnityEngine;
 
 namespace PoolSystem
@@ -10,7 +8,7 @@ namespace PoolSystem
         private readonly List<T> _totalPool = new();
         private readonly List<int> _readyObjectsIndices = new();
 
-        public void InitPool(int initialPoolSize, T objectPrefab, Transform parentTransform = null)
+        protected void InitPool(int initialPoolSize, T objectPrefab, Transform parentTransform = null)
         {
             CreateNewObjectsAndAddToPool(initialPoolSize, objectPrefab, parentTransform);
         }
