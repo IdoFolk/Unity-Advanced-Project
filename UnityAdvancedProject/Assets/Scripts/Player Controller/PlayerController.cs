@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         if (_inputHandler.ShootValue)
         {
             var aimDir = (mouseWorldPos - castPos.position).normalized;
-            Instantiate(projectilePrefab,castPos.position,Quaternion.LookRotation(aimDir));
+            var projectile = Instantiate(projectilePrefab,castPos.position,Quaternion.LookRotation(aimDir));
             _inputHandler.ShootValue = false;
         }
     }
