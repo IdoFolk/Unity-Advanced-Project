@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class EnemyMovement : MonoBehaviour
+namespace Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    public class EnemyMovement : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private NavMeshAgent navMeshAgent;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void OnValidate()
+        {
+            navMeshAgent ??= GetComponent<NavMeshAgent>();
+        }
     }
 }
