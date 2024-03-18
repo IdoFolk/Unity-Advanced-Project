@@ -56,7 +56,7 @@ PrefabInstance:
     - target: {fileID: 4365309714424331386, guid: 40ef54345c97c624daeae3c8a95adf91,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69500005
+      value: 1.625
       objectReference: {fileID: 0}
     - target: {fileID: 4365309714424331386, guid: 40ef54345c97c624daeae3c8a95adf91,
         type: 3}
@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 1130959596861525061, guid: b0c3530facf35f64f9ff2fb12016e784,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92999995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1130959596861525061, guid: b0c3530facf35f64f9ff2fb12016e784,
         type: 3}
@@ -172,6 +172,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5332392530510137095, guid: b0c3530facf35f64f9ff2fb12016e784,
+        type: 3}
+      propertyPath: aimVirtualCamera
+      value: 
+      objectReference: {fileID: 6549465225373500890}
     - target: {fileID: 5332392530510137095, guid: b0c3530facf35f64f9ff2fb12016e784,
         type: 3}
       propertyPath: _aimVirtualCamera
@@ -311,7 +316,7 @@ PrefabInstance:
     - target: {fileID: 4329600609029034467, guid: 61cabe53da4efad45a3f758d30e46623,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69500005
+      value: 1.625
       objectReference: {fileID: 0}
     - target: {fileID: 4329600609029034467, guid: 61cabe53da4efad45a3f758d30e46623,
         type: 3}
